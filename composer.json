@@ -15,5 +15,12 @@
         "psr-4": {
             "Havare\\Contact\\": "src/"
         }
+    },
+    "extra": {
+     "laravel": {
+         "providers": [
+             "Havare\\Contact\\ContactServiceProvider"
+         ]
+     }
     }
 }
